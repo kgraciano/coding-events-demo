@@ -27,7 +27,7 @@ public class User extends AbstractEntity{
         this.username = username;
         this.pwHash = encoder.encode(password);
     }
-
+// password hashes when a new User object is created
     public String getUsername() {
         return username;
     }
