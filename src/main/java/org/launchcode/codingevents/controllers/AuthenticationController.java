@@ -158,6 +158,7 @@ public class AuthenticationController {
         //removes all data rom the session
         // so when user makes a subsequent request
         // they will be forced to login again
+        // commit to new branch accidently committed to user models branch ughhh
         request.getSession().invalidate();
 
         return "redirect:/login";
